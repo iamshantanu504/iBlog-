@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+/*CSS*/
+/*Removing Chrome Default padding & Margin*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*CSS Variables*/
+.max-width-1{
+    max-width: 80vw ;
+}
+.margin-auto{
+    margin: auto;
+}
+:root{
+    --font1:'Baloo Bhaina 2', cursive;
+    --font2:'Roboto', sans-serif;
+    --main-color:purple;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+/*Navbar*/
+.leftnav img{
+    height: 90px;
+    width: 90px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftnav{
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+    padding-left:70px;
+    list-style: none;
+    font-family: var(--font2)
+}
+.nav-list li{
+    text-decoration: none;
+    padding: 30px;
+}
+.nav-list li a:hover{
+    color:var(--main-color);
+}
+.nav-list a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+.rightnav{
+    text-align: right;
+}
+.rightnav input{
+        padding: 0px 12px;
+        padding-top: 3px;
+        border: 2px solid black;
+        border-radius: 6px;
+        font-family: var(--font1);
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+}
+.rightnav input::placeholder{
+    font-family: var(--font1);
+}
+.btn{
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color:white;
+    background-color: var(--main-color);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-left h1{
+    font-family:var(--font2);
+    margin-left: 15px;
+}
+.content-left p{
+    font-family:var(--font2);
+    font-size: 1.4rem;
+    margin: 15px;
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-right img{
+    height: 395px;
+    border-radius: 200px;
+    margin: 30px;
+}
+
+/*Featured Articles*/
+.featured-articles{
+    background-color: rgb(248, 239, 239, 0.5);
+}
+.featured-articles h2{
+    padding: 20px;
+}
+.article1{
+    display: flex;
+    padding:25px;
+}
+.article1 img{
+    width: 300px;
+}
+.article1-content{
+    align-self: center;
+    padding: 0px 25px;
+}
+.blog{
+    padding-top: 25px;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+}
+.twitter{
+    cursor: pointer;
+}
+.fb{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.linkedin{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.topic{
+    padding: 25px 0px;
+}
+.content{
+    padding: 20px 0px;
+}
+.logos{
+    padding: 0px 15px;
+}
+.footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.footer{
+    background-color: var(--main-color);
+}
+.featured-articles a{
+    color: black;
+    text-decoration: none;
+}
+.suggestions a{
+    color: black;
+    text-decoration: none;
+}

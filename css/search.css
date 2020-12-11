@@ -1,0 +1,10 @@
+.search-result-topic{
+    margin-top:80px;
+    background-color: rgb(248, 239, 239, 0.5);
+}
+.search-result-topic h1{
+    padding: 25px;
+}
+.results h2{
+    padding: 20px;
+}
